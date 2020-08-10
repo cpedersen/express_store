@@ -152,7 +152,7 @@ app.delete('/user/:userId', (req, res) => {
   res
        .status(204)
        .end();
-  });
+
 });
 
 app.use(function errorHandler(error, req, res, next) {
